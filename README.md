@@ -1,45 +1,41 @@
-# Projet d’analyse de données footballistiques pour l'optimisation des performances d'équipe
+# Football Data Analysis Project for Team Performance Optimization
 
-## Description du projet :
-Ce projet vise à explorer les données footballistiques pour identifier des tendances et corrélations entre les performances individuelles des joueurs et les résultats globaux des équipes. Nous avons utilisé plusieurs ensembles de données provenant de **Kaggle** et **understat.com**, couvrant une période de cinq ans, afin de mieux comprendre les performances des équipes et des joueurs en fonction de plusieurs métriques telles que les **expected goals (xG)** et le **ppda_coef** (passes adverses par action défensive).
+## Project Description:
+This project aims to explore football data to identify trends and correlations between individual player performances and overall team results. We used several datasets from **Kaggle** and **understat.com**, spanning a five-year period, to gain insights into team and player performances based on various metrics, such as **expected goals (xG)** and **ppda_coef**(opponent passes per defensive action).
 
-## Objectifs du projet :
-1. **Analyser les performances des équipes** en fonction de leur capacité à convertir les occasions en buts à travers les différentes ligues.
-2. **Étudier l'impact du pressing défensif** sur les résultats des équipes, en comparant l'intensité du pressing à la réussite offensive.
-3. **Évaluer l'efficacité des joueurs** dans la conversion des expected goals en buts réels.
-4. **Explorer la corrélation entre les performances individuelles** des joueurs et les résultats de leur équipe dans chaque ligue.
+## Project Objectives:
+1. **Analyze team performance** based on their ability to convert chances into goals across different leagues.
+2. **Examine the impact of defensive pressing** on team results by comparing pressing intensity to offensive success.
+3. **Assess player efficiency** in converting expected goals into actual goals.
+4. **Explore the correlation between individual player performance** and their team's results in each league.
 
-## Datasets utilisés :
-- **Understat.com** : Données détaillées sur les équipes des ligues européennes (2014-2019).
-- **Kaggle** : Statistiques des joueurs professionnels (2016-2020).
+## Datasets Used:
+- **Understat.com** : Detailed data on European league teams (2014-2019).
+- **Kaggle** : Professional player statistics (2016-2020).
 
-## Technologies utilisées :
-- **Python** (Pandas, NumPy) : Pour le traitement et l’analyse des données.
-- **Altair** : Pour la visualisation interactive des données.
-- **Jupyter Notebook** : Pour le développement et la documentation du projet.
+## Technologies Used:
+- **Python** (Pandas, NumPy) : For data processing and analysis.
+- **Altair** : For data processing and analysis.
+- **Jupyter Notebook** : For data processing and analysis.
 
 
-## Méthodologie :
-1. **Préparation des données** : Nettoyage et structuration des jeux de données, vérification des valeurs manquantes, transformation des noms d’équipes pour correspondre entre les datasets.
-2. **Analyse exploratoire** :
-   - Analyse du **xG_diff** (différence entre expected goals et buts marqués) pour mesurer la capacité des équipes à concrétiser leurs occasions.
-   - Étude du **ppda_coef** pour mesurer l'intensité du pressing défensif des équipes.
-3. **Visualisation** : Utilisation d’Altair pour produire des graphiques interactifs illustrant les performances des équipes et des joueurs.
-4. **Interprétation des résultats** : Identification de corrélations significatives entre les métriques de performance des équipes/joueurs et les résultats globaux.
+## Methodology:
+1. **Data Preparation** : Cleaning and structuring datasets, checking for missing values, and matching team names across datasets.
+2. **Exploratory Analysis** :
+   - Analysis of **xG_diff**(difference between expected goals and actual goals) to measure team efficiency in converting chances. 
+   - Study of **ppda_coef** to gauge teams' defensive pressing intensity.
+3. **Visualization** : Use Altair to create interactive charts illustrating team and player performance.
+4. **Result Interpretation** : Identification of significant correlations between team/player performance metrics and overall results.
 
-## Résultats :
-- Les équipes avec un **xG_diff** plus faible, c'est-à-dire celles qui concrétisent davantage leurs occasions, ont généralement de meilleurs résultats.
-- Une pression défensive intense (faible **ppda_coef**) est corrélée à de meilleures performances offensives dans plusieurs cas, bien que cela varie selon les équipes et les tactiques.
+## Résults :
+- Teams with a lower **xG_diff** those that convert more chances—generally achieve better results.
+- Intense defensive pressing (faible **ppda_coef**) is correlated with better offensive performance in several cases, although it varies depending on the teams and tactics.
 
 ## Conclusion :
-Ce projet démontre l'importance de l'analyse de données dans la compréhension des performances footballistiques. Les visualisations et les métriques utilisées permettent de mieux appréhender les facteurs qui influencent les résultats des équipes et des joueurs.
+This project demonstrates the importance of data analysis in understanding football performance. The visualizations and metrics used provide better insights into the factors that influence team and player outcomes.
 
-## Comment lancer le projet :
-1. Cloner le dépôt :
-   ```bash
-   git clone git@github.com:Mkbrad77/projet_analyse_exploratoire_et_machine_learning.git
-   ```
-2. Installer les dépendances
+## Before run this Project
+Install dependencies:
     ```bash
     pip install -r requirements.txt
     ```
