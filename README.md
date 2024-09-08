@@ -36,6 +36,6 @@ This project demonstrates the importance of data analysis in understanding footb
 
 ## Before run this Project
 Install dependencies:
-    ```bash
+    ```
     pip install -r requirements.txt
     ```
